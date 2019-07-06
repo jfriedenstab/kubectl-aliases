@@ -65,6 +65,7 @@ function kubectl() { echo "+ kubectl $@"; command kubectl $@; }
   * **`svc`**=`service`
   * **`cm`**=`configmap`
   * **`sec`**=`secret`
+  * **`pvc`**=`persistentvolumeclaim`
   * **`ns`**=`namespace`
   * **`no`**=`node`
 * flags:
